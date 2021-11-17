@@ -1,71 +1,71 @@
 # Describe the variables
 The final dataset has 68 variables. 2 of them are "activity" and "subject"
-- "activity" variable contains values like "walking", "sitting": 6 values.
-- "subject" variable show the subject who carried out the activities. There are 30 subjects.
+- "activity" variable contains values like "walking", "sitting". There are six activites.
+- "subject" variable shows the subject who carried out the activities. There are 30 subjects.
 - Other variables are quantiative, normalized from -1 to 1.
-tBAmeanX  tBodyAcc-mean()-X
-tBAmeanY  tBodyAcc-mean()-Y
-tBAmeanZ  tBodyAcc-mean()-Z
-tBAstdX   tBodyAcc-std()-X
-tBAstdY   tBodyAcc-std()-Y
-tBAstdZ   tBodyAcc-std()-Z
-tGAmeanX  tGravityAcc-mean()-X
-tGAmeanY  tGravityAcc-mean()-Y
-tGAmeanZ  tGravityAcc-mean()-Z
-tGAstdX   tGravityAcc-std()-X
-tGAstdY   tGravityAcc-std()-Y
-tGAstdZ   tGravityAcc-std()-Z
-tBAJmeanX tBodyAccJerk-mean()-X
-tBAJmeanY tBodyAccJerk-mean()-Y
-tBAJmeanZ tBodyAccJerk-mean()-Z
-tBAJstdX  tBodyAccJerk-std()-X
-tBAJstdY  tBodyAccJerk-std()-Y
-tBAJstdZ  tBodyAccJerk-std()-Z
-tBGmeanX  tBodyGyro-mean()-X
-tBGmeanY  tBodyGyro-mean()-Y
-tBGmeanZ  tBodyGyro-mean()-Z
-tBGstdX   tBodyGyro-std()-X
-tBGstdY   tBodyGyro-std()-Y
-tBGstdZ   tBodyGyro-std()-Z
-tBGJmeanX tBodyGyroJerk-mean()-X
-tBGJmeanY tBodyGyroJerk-mean()-Y
-tBGJmeanZ tBodyGyroJerk-mean()-Z
-tBGJstdX  tBodyGyroJerk-std()-X
-tBGJstdY  tBodyGyroJerk-std()-Y
-tBGJstdZ  tBodyGyroJerk-std()-Z
-tBAMmean  tBodyAccMag-mean()
-tBAMstd   tBodyAccMag-std()
-tGAMmean  tGravityAccMag-mean()
-tGAMstd   tGravityAccMag-std()
-tBAJMmean tBodyAccJerkMag-mean()
-tBAJMstd  tBodyAccJerkMag-std()
-tBGMmean  tBodyGyroMag-mean()
-tBGMstd   tBodyGyroMag-std()
-tBGJMmean tBodyGyroJerkMag-mean()
-tBGJMstd  tBodyGyroJerkMag-std()
-fBAmeanX  fBodyAcc-mean()-X
-fBAmeanY  fBodyAcc-mean()-Y
-fBAmeanZ  fBodyAcc-mean()-Z
-fBAstdX   fBodyAcc-std()-X
-fBAstdY   fBodyAcc-std()-Y
-fBAstdZ   fBodyAcc-std()-Z
-fBAJmeanX fBodyAccJerk-mean()-X
-fBAJmeanY fBodyAccJerk-mean()-Y
-fBAJmeanZ fBodyAccJerk-mean()-Z
-fBAJstdX  fBodyAccJerk-std()-X
-fBAJstdY  fBodyAccJerk-std()-Y
-fBAJstdZ  fBodyAccJerk-std()-Z
-fBGmeanX  fBodyGyro-mean()-X
-fBGmeanY  fBodyGyro-mean()-Y
-fBGmeanZ  fBodyGyro-mean()-Z
-fBGstdX   fBodyGyro-std()-X
-fBGstdY   fBodyGyro-std()-Y
-fBGstdZ   fBodyGyro-std()-Z
-fBAMmean  fBodyAccMag-mean()
-fBAMstd   fBodyAccMag-std()
-fBaJMmean fBodyBodyAccJerkMag-mean()
-fBAJMstd  fBodyBodyAccJerkMag-std()
-fBGMmean  fBodyBodyGyroMag-mean()
-fBGMstd   fBodyBodyGyroMag-std()
-fBGJMmean fBodyBodyGyroJerkMag-mean()
-fBGJMstd  fBodyBodyGyroJerkMag-std()
+1. tBAmeanX:   tBodyAcc-mean()-X
+2. tBAmeanY:   tBodyAcc-mean()-Y
+3. tBAmeanZ:   tBodyAcc-mean()-Z
+4. tBAstdX:    tBodyAcc-std()-X
+5. tBAstdY:    tBodyAcc-std()-Y
+6. tBAstdZ:    tBodyAcc-std()-Z
+7. tGAmeanX:   tGravityAcc-mean()-X
+8. tGAmeanY:   tGravityAcc-mean()-Y
+9. tGAmeanZ:   tGravityAcc-mean()-Z
+10. tGAstdX:   tGravityAcc-std()-X
+11. tGAstdY:   tGravityAcc-std()-Y
+12. tGAstdZ:   tGravityAcc-std()-Z
+13. tBAJmeanX: tBodyAccJerk-mean()-X
+14. tBAJmeanY: tBodyAccJerk-mean()-Y
+15. tBAJmeanZ: tBodyAccJerk-mean()-Z
+16. tBAJstdX:  tBodyAccJerk-std()-X
+17. tBAJstdY:  tBodyAccJerk-std()-Y
+18. tBAJstdZ:  tBodyAccJerk-std()-Z
+19. tBGmeanX:  tBodyGyro-mean()-X
+20. tBGmeanY:  tBodyGyro-mean()-Y
+21. tBGmeanZ:  tBodyGyro-mean()-Z
+22. tBGstdX:   tBodyGyro-std()-X
+23. tBGstdY:   tBodyGyro-std()-Y
+24. tBGstdZ:   tBodyGyro-std()-Z
+25. tBGJmeanX: tBodyGyroJerk-mean()-X
+26. tBGJmeanY: tBodyGyroJerk-mean()-Y
+27. tBGJmeanZ: tBodyGyroJerk-mean()-Z
+28. tBGJstdX:  tBodyGyroJerk-std()-X
+29. tBGJstdY:  tBodyGyroJerk-std()-Y
+30. tBGJstdZ:  tBodyGyroJerk-std()-Z
+31. tBAMmean:  tBodyAccMag-mean()
+32. tBAMstd:   tBodyAccMag-std()
+33. tGAMmean:  tGravityAccMag-mean()
+34. tGAMstd:   tGravityAccMag-std()
+35. tBAJMmean: tBodyAccJerkMag-mean()
+36. tBAJMstd:  tBodyAccJerkMag-std()
+37. tBGMmean:  tBodyGyroMag-mean()
+38. tBGMstd:   tBodyGyroMag-std()
+39. tBGJMmean: tBodyGyroJerkMag-mean()
+40. tBGJMstd:  tBodyGyroJerkMag-std()
+41. fBAmeanX:  fBodyAcc-mean()-X
+42. fBAmeanY:  fBodyAcc-mean()-Y
+43. fBAmeanZ:  fBodyAcc-mean()-Z
+44. fBAstdX:   fBodyAcc-std()-X
+45. fBAstdY:   fBodyAcc-std()-Y
+46. fBAstdZ:   fBodyAcc-std()-Z
+47. fBAJmeanX: fBodyAccJerk-mean()-X
+48. fBAJmeanY: fBodyAccJerk-mean()-Y
+49. fBAJmeanZ: fBodyAccJerk-mean()-Z
+50. fBAJstdX:  fBodyAccJerk-std()-X
+51. fBAJstdY:  fBodyAccJerk-std()-Y
+52. fBAJstdZ:  fBodyAccJerk-std()-Z
+53. fBGmeanX:  fBodyGyro-mean()-X
+54. fBGmeanY:  fBodyGyro-mean()-Y
+55. fBGmeanZ:  fBodyGyro-mean()-Z
+56. fBGstdX:   fBodyGyro-std()-X
+57. fBGstdY:   fBodyGyro-std()-Y
+58. fBGstdZ:   fBodyGyro-std()-Z
+59. fBAMmean:  fBodyAccMag-mean()
+60. fBAMstd:   fBodyAccMag-std()
+61. fBaJMmean: fBodyBodyAccJerkMag-mean()
+62. fBAJMstd:  fBodyBodyAccJerkMag-std()
+63. fBGMmean:  fBodyBodyGyroMag-mean()
+64. fBGMstd:   fBodyBodyGyroMag-std()
+65. fBGJMmean: fBodyBodyGyroJerkMag-mean()
+66. fBGJMstd:  fBodyBodyGyroJerkMag-std()
