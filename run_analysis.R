@@ -1,11 +1,9 @@
-# read file txt in R done
+# read file txt in R 
 # Merges the training and the test sets to create one data set
 # Merges X_train, y_train, X_test, y_test:
 merge_X <- rbind(X_train, X_test)
 merge_y <- rbind(y_train, y_test)
 merge_subject <- rbind(subject_train, subject_test)
-names(merge_y) <- "activity"
-names(merge_subject) <- "subject"
 data <- cbind(merge_X, merge_y, merge_subject)
 
 
@@ -13,6 +11,7 @@ data <- cbind(merge_X, merge_y, merge_subject)
 library(dplyr)
 pos <- c(1:6,41:46,81:86,121:126,161:166,201,202,214,215,227,228,240,241,253,254,266:271,345:350,
          424:429,503,504,516,517,529,530,542,543)
+# Extract data based on positions in the file features.txt of dataset.
 data1 <- select(data,pos)
 
 
@@ -39,3 +38,4 @@ names(data1) <- c("tBAmeanX", "tBAmeanY", "tBAmeanZ", "tBAstdX", "tBAstdY", "tBA
 second_data <- data1 %>%
   group_by(activity, subject) %>%
   summarise_all("mean")
+# Second_data is the result dataset
